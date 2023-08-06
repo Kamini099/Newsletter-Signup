@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+body{
+  height:100%;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(
+      to right, rgb(241, 143, 77), rgb(157, 222, 248));
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 218px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+  margin-bottom: -2px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
